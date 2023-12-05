@@ -1,0 +1,10 @@
+
+# logout user
+
+POST http://localhost:3000/auth/logout HTTP/1.1
+
+Cookie: eccubeToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTY4NjY2NjU5LCJleH
+
+Content-Type: application/json
+
+{}
